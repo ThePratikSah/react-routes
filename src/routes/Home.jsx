@@ -14,14 +14,22 @@ function Home() {
               <h1>Hello I'm Pratik Sah</h1>
               <p>
                 A proud Indian Full-Stack Web developer who loves coding and a
-                die-hard fan of Chelsea FC<span role="img">⚽</span>.
+                die-hard fan of Chelsea FC
+                <span role="img" aria-label="">
+                  ⚽
+                </span>
+                .
                 <br /> I am a Computer Science Engineer, and you can connect
                 with me on LinkedIn.
               </p>
             </div>
             <div class="cta">
               <button class="cta-add">
-                <a href="https://dribbble.com/pratiksah" target="_blank">
+                <a
+                  href="https://dribbble.com/pratiksah"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   View My Work
                 </a>
               </button>
