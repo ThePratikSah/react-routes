@@ -12,7 +12,7 @@ body {
 
 header {
   display: flex;
-  height: 14vh;
+  height: 13vh;
   flex-direction: column;
   box-shadow: 0 2px 15px grey;
 }
@@ -42,7 +42,7 @@ header {
   width: 90%;
   margin: auto;
   flex-direction: column;
-  min-height: 86vh;
+  min-height: 84vh;
 }
 
 .introduction {
