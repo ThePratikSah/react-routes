@@ -30,7 +30,6 @@ header {
 .nav-links {
   list-style: none;
   justify-content: space-around;
-  margin-bottom: 1vh;
 }
 
 .link-item {
