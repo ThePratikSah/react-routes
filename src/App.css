@@ -12,7 +12,7 @@ body {
 
 header {
   display: flex;
-  height: 13vh;
+  height: 10vh;
   flex-direction: column;
   box-shadow: 0 2px 15px grey;
 }
@@ -23,7 +23,7 @@ header {
 }
 
 .logo {
-  margin-top: 1vh;
+  margin-top: 1.5vh;
   justify-content: center;
 }
 
