@@ -1,30 +1,38 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import logo from "../img/tcp-logo.png";
 
 function Navbar() {
-  const navStyle = {
-    color: "white",
-  };
-
   return (
-    <>
-      <nav>
-        <ul>
-          <Link style={navStyle} to="/">
-            <li>Home</li>
+    <header>
+      <div className="logo">
+        <a href="#">
+          <img src={logo} width="100px" />
+        </a>
+      </div>
+      <nav class="nav-links">
+        <li>
+          <Link to="/" className="link-item">
+            Home
           </Link>
-          <Link style={navStyle} to="/about">
-            <li>About</li>
+        </li>
+        <li>
+          <Link to="/about" className="link-item">
+            About
           </Link>
-          <Link style={navStyle} to="/contact">
-            <li>Contact</li>
+        </li>
+        <li>
+          <Link to="/contact" className="link-item">
+            Contact
           </Link>
-          <Link style={navStyle} to="/privacy">
-            <li>Privacy</li>
+        </li>
+        <li>
+          <Link to="/privacy" className="link-item">
+            Privacy
           </Link>
-        </ul>
+        </li>
       </nav>
-    </>
+    </header>
   );
 }
 
