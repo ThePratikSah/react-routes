@@ -14,7 +14,7 @@ function Home() {
               <h1>Hello I'm Pratik Sah</h1>
               <p>
                 A proud Indian Full-Stack Web developer who loves coding and a
-                die-hard fan of Chelsea FC⚽.
+                die-hard fan of Chelsea FC<span role="img">⚽</span>.
                 <br /> I am a Computer Science Engineer, and you can connect
                 with me on LinkedIn.
               </p>
@@ -32,6 +32,7 @@ function Home() {
                 href="https://www.linkedin.com/in/pratiksah/"
                 class="social-link"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <i class="fab fa-linkedin fa-2x"></i>
               </a>
@@ -39,6 +40,7 @@ function Home() {
                 href="https://github.com/ThePratikSah"
                 class="social-link"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <i class="fab fa-github-square fa-2x"></i>
               </a>
@@ -46,6 +48,7 @@ function Home() {
                 href="https://dribbble.com/pratiksah"
                 class="social-link"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <i class="fab fa-dribbble-square fa-2x"></i>
               </a>
@@ -53,6 +56,7 @@ function Home() {
                 href="https://www.instagram.com/the_pratik_sah/"
                 class="social-link"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <i class="fab fa-instagram-square fa-2x"></i>
               </a>
@@ -60,6 +64,7 @@ function Home() {
                 href="https://twitter.com/the_pratik_sah"
                 class="social-link"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <i class="fab fa-twitter-square fa-2x"></i>
               </a>

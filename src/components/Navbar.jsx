@@ -6,8 +6,8 @@ function Navbar() {
   return (
     <header>
       <div className="logo">
-        <a href="#">
-          <img src={logo} width="100px" />
+        <a href="/">
+          <img src={logo} width="100px" alt="Logo" />
         </a>
       </div>
       <nav class="nav-links">
