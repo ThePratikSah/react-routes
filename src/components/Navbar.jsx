@@ -18,7 +18,7 @@ function Navbar() {
         </li>
         <li>
           <Link to="/about" className="link-item">
-            About
+            Skills
           </Link>
         </li>
         <li>
