@@ -19,7 +19,7 @@ function Home() {
                   ⚽
                 </span>
                 .
-                <br /> I am a Computer Science Engineer, and you can connect
+                <br /> I am a Computer Science Engineer, and you can also connect
                 with me on LinkedIn.
               </p>
             </div>
