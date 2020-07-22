@@ -14,7 +14,6 @@ header {
   display: flex;
   height: 10vh;
   flex-direction: column;
-  box-shadow: 0 2px 15px grey;
 }
 
 .logo,
@@ -28,6 +27,7 @@ header {
 }
 
 .nav-links {
+  margin-top: 10px;
   list-style: none;
   justify-content: space-around;
 }
@@ -42,7 +42,7 @@ header {
   width: 90%;
   margin: auto;
   flex-direction: column;
-  min-height: 84vh;
+  min-height: 80vh;
 }
 
 .introduction {
@@ -125,6 +125,7 @@ header {
     align-items: center;
   }
   .nav-links {
+    /* margin-top: 0px; */
     margin-bottom: 0px;
     justify-content: space-around;
   }
