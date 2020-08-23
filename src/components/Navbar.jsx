@@ -1,39 +1,42 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import {Link} from "react-router-dom";
 import logo from "../img/logo.png";
 
 function Navbar() {
   return (
-    <header>
-      <div className="logo">
-        <a href="/">
-          <img src={logo} width="100px" alt="Logo" />
+    <header className="text-gray-700 body-font">
+      <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+        <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+          <img src={logo} width="100px" alt="Pratik Sah"/>
         </a>
-      </div>
-      <nav class="nav-links">
-        <li>
-          <Link to="/" className="link-item">
+        <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
+          <Link to="/" className="mr-5 hover:text-gray-900">
             Home
           </Link>
-        </li>
-        <li>
-          <Link to="/about" className="link-item">
+          <Link to="/skills" className="mr-5 hover:text-gray-900">
             Skills
           </Link>
-        </li>
-        <li>
-          <Link to="/contact" className="link-item">
-            Contact
+          <Link to="/testimonials" className="mr-5 hover:text-gray-900">
+            Testimonials
           </Link>
-        </li>
-        <li>
-          <Link to="/privacy" className="link-item">
-            Privacy
-          </Link>
-        </li>
-      </nav>
+        </nav>
+      </div>
     </header>
   );
 }
 
 export default Navbar;
+
+//
+//   <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+//     <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+//       <img src={logo} width="100px" alt="Pratik Sah" />
+//     </a>
+//     <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
+//       <a className="mr-5 hover:text-gray-900">First Link</a>
+//       <a className="mr-5 hover:text-gray-900">Second Link</a>
+//       <a className="mr-5 hover:text-gray-900">Third Link</a>
+//       <a className="mr-5 hover:text-gray-900">Fourth Link</a>
+//     </nav>
+//   </div>
+// </header>
